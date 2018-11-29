@@ -12,6 +12,7 @@ namespace DEPRECIACION2._0
 {
     public partial class ACTIVOS : Form
     {
+        // PROBANDO GIT
         private SqlConnection sqlCon;
         private SqlCommand sqlCmd;
         private String strCmd;
