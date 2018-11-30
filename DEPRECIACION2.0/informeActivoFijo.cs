@@ -87,66 +87,21 @@ namespace DEPRECIACION2._0
                 SqlDataReader sdr = sql_cmd.ExecuteReader();
                 sdr.Read();
 
-                //MessageBox.Show("" + sdr.GetValue(0).ToString());
                 if (sdr.GetValue(0).ToString() != "0" || !string.IsNullOrEmpty(sdr.GetValue(1).ToString()))
                 {
 
                     double valor = Convert.ToDouble(sdr.GetValue(0).ToString());
-                    /*
-                    chart1.Series.Add("MASCULINO");
-                    chart1.Series["MASCULINO"].ChartType = SeriesChartType.Column;
-                    chart1.Series["MASCULINO"].Label = edadM.ToString();
-                    chart1.Series["MASCULINO"].Points.AddY(edadM);
-                    chart1.Series["MASCULINO"].ChartArea = "ChartArea1";*/
-                    MessageBox.Show(sdr.GetValue(1).ToString());
+             
                     chart1.Series.Add(sdr.GetValue(1).ToString());
                     chart1.Series[sdr.GetValue(1).ToString()].Label = valor.ToString();
                     chart1.Series[sdr.GetValue(1).ToString()].ChartType = SeriesChartType.Column;
                     chart1.Series[sdr.GetValue(1).ToString()].Points.AddY(valor);
                     chart1.Series[sdr.GetValue(1).ToString()].ChartArea = "ChartArea1";
                 }
-                    /*
-                else
-                {
-                    /*
-                    chart1.Series.Add("MASCULINO");
-                    chart1.Series["MASCULINO"].Label = "0";
-                    chart1.Series["MASCULINO"].ChartType = SeriesChartType.Column;
-                    chart1.Series["MASCULINO"].Points.AddY(0);
-                    chart1.Series["MASCULINO"].ChartArea = "ChartArea1";*/
-                    /*
-                    chart1.Series.Add("");
-                    chart1.Series[""].Label = "0";
-                    chart1.Series[""].ChartType = SeriesChartType.Column;
-                    chart1.Series[""].Points.AddY(0);
-                    chart1.Series[""].ChartArea = "ChartArea1
-                     
-                    MessageBox.Show("vacio "+sdr.GetValue(1).ToString());
-                }*/
+             
                 cont++;
                 sql_con.Close();
             }
-            
-            /*
-            if (sdr.GetValue(1).ToString() != "")
-            {
-                double edadF = Convert.ToDouble(sdr.GetValue(1).ToString());
-
-                chart1.Series.Add("FEMENINO");
-                chart1.Series["FEMENINO"].Label = edadF.ToString();
-                chart1.Series["FEMENINO"].ChartType = SeriesChartType.Column;
-                chart1.Series["FEMENINO"].Points.AddY(edadF);
-                chart1.Series["FEMENINO"].ChartArea = "ChartArea1";
-            }
-            else
-            {
-                chart1.Series.Add("FEMENINO");
-                chart1.Series["FEMENINO"].Label = "0";
-                chart1.Series["FEMENINO"].ChartType = SeriesChartType.Column;
-                chart1.Series["FEMENINO"].Points.AddY(0);
-                chart1.Series["FEMENINO"].ChartArea = "ChartArea1";
-            }
-            */
             
         }
     }

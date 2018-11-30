@@ -26,3 +26,21 @@ E:\ING. DE SISTEMAS\2-2018\ING. DE SOFTWARE II\PROYECTO\DEPRECIACION2.4\DEPRECIA
 E:\ING. DE SISTEMAS\2-2018\ING. DE SOFTWARE II\PROYECTO\DEPRECIACION2.4\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.UBICACION.resources
 E:\ING. DE SISTEMAS\2-2018\ING. DE SOFTWARE II\PROYECTO\DEPRECIACION2.4\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.REGISTRO.resources
 E:\ING. DE SISTEMAS\2-2018\ING. DE SOFTWARE II\PROYECTO\DEPRECIACION2.4\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.BUSCAR_ACTIVO.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2.0.exe
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2.0.pdb
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\bin\Debug\DEPRECIACION2.0.exe
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\bin\Debug\DEPRECIACION2.0.pdb
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2.0.csprojResolveAssemblyReference.cache
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.ACTIVOS.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.BUSCAR_RUBRO.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.BUSCAR_ACTIVO.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.Form1.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.INICIO.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.Properties.Resources.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.recursosHumanos.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.REGISTRO.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.RUBROS2.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.UBICACION.resources
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2.0.csproj.GenerateResource.Cache
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\bin\Debug\DEPRECIACION2.0.exe.config
+C:\Users\c0d3\Source\Repos\NewRepo\SistemadeDepreciacion\DEPRECIACION2.0\obj\Debug\DEPRECIACION2._0.informeActivoFijo.resources
