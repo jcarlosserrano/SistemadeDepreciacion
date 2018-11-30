@@ -62,43 +62,109 @@
             ((System.ComponentModel.ISupportInitialize)(this.registroDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
+            // idRegistroLabel
+            // 
+            idRegistroLabel.AutoSize = true;
+            idRegistroLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            idRegistroLabel.Location = new System.Drawing.Point(34, 219);
+            idRegistroLabel.Name = "idRegistroLabel";
+            idRegistroLabel.Size = new System.Drawing.Size(92, 17);
+            idRegistroLabel.TabIndex = 29;
+            idRegistroLabel.Text = "Id Registro:";
+            // 
+            // idActivoFijoLabel
+            // 
+            idActivoFijoLabel.AutoSize = true;
+            idActivoFijoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            idActivoFijoLabel.Location = new System.Drawing.Point(34, 245);
+            idActivoFijoLabel.Name = "idActivoFijoLabel";
+            idActivoFijoLabel.Size = new System.Drawing.Size(106, 17);
+            idActivoFijoLabel.TabIndex = 32;
+            idActivoFijoLabel.Text = "Id Activo Fijo:";
+            // 
+            // idPersonalLabel
+            // 
+            idPersonalLabel.AutoSize = true;
+            idPersonalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            idPersonalLabel.Location = new System.Drawing.Point(34, 300);
+            idPersonalLabel.Name = "idPersonalLabel";
+            idPersonalLabel.Size = new System.Drawing.Size(95, 17);
+            idPersonalLabel.TabIndex = 35;
+            idPersonalLabel.Text = "Id Personal:";
+            // 
+            // idUbicacionLabel
+            // 
+            idUbicacionLabel.AutoSize = true;
+            idUbicacionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            idUbicacionLabel.Location = new System.Drawing.Point(34, 350);
+            idUbicacionLabel.Name = "idUbicacionLabel";
+            idUbicacionLabel.Size = new System.Drawing.Size(102, 17);
+            idUbicacionLabel.TabIndex = 38;
+            idUbicacionLabel.Text = "Id Ubicacion:";
+            // 
+            // fechaRegistroLabel
+            // 
+            fechaRegistroLabel.AutoSize = true;
+            fechaRegistroLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            fechaRegistroLabel.Location = new System.Drawing.Point(405, 219);
+            fechaRegistroLabel.Name = "fechaRegistroLabel";
+            fechaRegistroLabel.Size = new System.Drawing.Size(146, 17);
+            fechaRegistroLabel.TabIndex = 41;
+            fechaRegistroLabel.Text = "Fecha de Registro:";
+            // 
+            // inicioUFVLabel
+            // 
+            inicioUFVLabel.AutoSize = true;
+            inicioUFVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            inicioUFVLabel.Location = new System.Drawing.Point(405, 245);
+            inicioUFVLabel.Name = "inicioUFVLabel";
+            inicioUFVLabel.Size = new System.Drawing.Size(86, 17);
+            inicioUFVLabel.TabIndex = 43;
+            inicioUFVLabel.Text = "Inicio UFV:";
+            // 
+            // finalUFVLabel
+            // 
+            finalUFVLabel.AutoSize = true;
+            finalUFVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            finalUFVLabel.Location = new System.Drawing.Point(405, 271);
+            finalUFVLabel.Name = "finalUFVLabel";
+            finalUFVLabel.Size = new System.Drawing.Size(83, 17);
+            finalUFVLabel.TabIndex = 44;
+            finalUFVLabel.Text = "Final UFV:";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(192, 462);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(144, 375);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 48;
             this.label4.Text = "label4";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(192, 399);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(144, 324);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 47;
             this.label3.Text = "label3";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(192, 333);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(144, 271);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 46;
             this.label2.Text = "label2";
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(742, 179);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Location = new System.Drawing.Point(556, 145);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(141, 53);
+            this.button5.Size = new System.Drawing.Size(106, 43);
             this.button5.TabIndex = 42;
             this.button5.Text = "CANCELAR";
             this.button5.UseVisualStyleBackColor = true;
@@ -106,10 +172,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(593, 179);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Location = new System.Drawing.Point(445, 145);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(141, 53);
+            this.button4.Size = new System.Drawing.Size(106, 43);
             this.button4.TabIndex = 40;
             this.button4.Text = "LIMPIAR";
             this.button4.UseVisualStyleBackColor = true;
@@ -117,10 +182,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(444, 179);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(333, 145);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 53);
+            this.button3.Size = new System.Drawing.Size(106, 43);
             this.button3.TabIndex = 39;
             this.button3.Text = "ELIMINAR";
             this.button3.UseVisualStyleBackColor = true;
@@ -128,10 +192,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(294, 179);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(220, 145);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 53);
+            this.button2.Size = new System.Drawing.Size(106, 43);
             this.button2.TabIndex = 37;
             this.button2.Text = "MODIFICAR";
             this.button2.UseVisualStyleBackColor = true;
@@ -139,187 +202,101 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(145, 179);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(109, 145);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 53);
+            this.button1.Size = new System.Drawing.Size(106, 43);
             this.button1.TabIndex = 36;
             this.button1.Text = "AGREGAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(429, 99);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(322, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(236, 46);
+            this.label1.Size = new System.Drawing.Size(189, 37);
             this.label1.TabIndex = 45;
             this.label1.Text = "REGISTRO";
-            // 
-            // idRegistroLabel
-            // 
-            idRegistroLabel.AutoSize = true;
-            idRegistroLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            idRegistroLabel.Location = new System.Drawing.Point(45, 270);
-            idRegistroLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            idRegistroLabel.Name = "idRegistroLabel";
-            idRegistroLabel.Size = new System.Drawing.Size(107, 20);
-            idRegistroLabel.TabIndex = 29;
-            idRegistroLabel.Text = "Id Registro:";
             // 
             // idRegistroTextBox
             // 
             this.idRegistroTextBox.Enabled = false;
-            this.idRegistroTextBox.Location = new System.Drawing.Point(189, 271);
-            this.idRegistroTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.idRegistroTextBox.Location = new System.Drawing.Point(142, 220);
             this.idRegistroTextBox.Name = "idRegistroTextBox";
-            this.idRegistroTextBox.Size = new System.Drawing.Size(221, 22);
+            this.idRegistroTextBox.Size = new System.Drawing.Size(167, 20);
             this.idRegistroTextBox.TabIndex = 25;
-            // 
-            // idActivoFijoLabel
-            // 
-            idActivoFijoLabel.AutoSize = true;
-            idActivoFijoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            idActivoFijoLabel.Location = new System.Drawing.Point(45, 302);
-            idActivoFijoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            idActivoFijoLabel.Name = "idActivoFijoLabel";
-            idActivoFijoLabel.Size = new System.Drawing.Size(125, 20);
-            idActivoFijoLabel.TabIndex = 32;
-            idActivoFijoLabel.Text = "Id Activo Fijo:";
             // 
             // idActivoFijoComboBox
             // 
             this.idActivoFijoComboBox.DisplayMember = "ID_ACTIVO";
             this.idActivoFijoComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.idActivoFijoComboBox.FormattingEnabled = true;
-            this.idActivoFijoComboBox.Location = new System.Drawing.Point(189, 303);
-            this.idActivoFijoComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.idActivoFijoComboBox.Location = new System.Drawing.Point(142, 246);
             this.idActivoFijoComboBox.Name = "idActivoFijoComboBox";
-            this.idActivoFijoComboBox.Size = new System.Drawing.Size(221, 24);
+            this.idActivoFijoComboBox.Size = new System.Drawing.Size(167, 21);
             this.idActivoFijoComboBox.TabIndex = 27;
             this.idActivoFijoComboBox.ValueMember = "activoFijo.ID_ACTIVO";
-            // 
-            // idPersonalLabel
-            // 
-            idPersonalLabel.AutoSize = true;
-            idPersonalLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            idPersonalLabel.Location = new System.Drawing.Point(45, 369);
-            idPersonalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            idPersonalLabel.Name = "idPersonalLabel";
-            idPersonalLabel.Size = new System.Drawing.Size(110, 20);
-            idPersonalLabel.TabIndex = 35;
-            idPersonalLabel.Text = "Id Personal:";
             // 
             // idPersonalComboBox
             // 
             this.idPersonalComboBox.DisplayMember = "idCliente";
             this.idPersonalComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.idPersonalComboBox.FormattingEnabled = true;
-            this.idPersonalComboBox.Location = new System.Drawing.Point(189, 370);
-            this.idPersonalComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.idPersonalComboBox.Location = new System.Drawing.Point(142, 301);
             this.idPersonalComboBox.Name = "idPersonalComboBox";
-            this.idPersonalComboBox.Size = new System.Drawing.Size(221, 24);
+            this.idPersonalComboBox.Size = new System.Drawing.Size(167, 21);
             this.idPersonalComboBox.TabIndex = 28;
             this.idPersonalComboBox.ValueMember = "idCliente";
-            // 
-            // idUbicacionLabel
-            // 
-            idUbicacionLabel.AutoSize = true;
-            idUbicacionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            idUbicacionLabel.Location = new System.Drawing.Point(45, 431);
-            idUbicacionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            idUbicacionLabel.Name = "idUbicacionLabel";
-            idUbicacionLabel.Size = new System.Drawing.Size(119, 20);
-            idUbicacionLabel.TabIndex = 38;
-            idUbicacionLabel.Text = "Id Ubicacion:";
             // 
             // idUbicacionComboBox
             // 
             this.idUbicacionComboBox.DisplayMember = "id_ubicacion";
             this.idUbicacionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.idUbicacionComboBox.FormattingEnabled = true;
-            this.idUbicacionComboBox.Location = new System.Drawing.Point(189, 433);
-            this.idUbicacionComboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.idUbicacionComboBox.Location = new System.Drawing.Point(142, 352);
             this.idUbicacionComboBox.Name = "idUbicacionComboBox";
-            this.idUbicacionComboBox.Size = new System.Drawing.Size(221, 24);
+            this.idUbicacionComboBox.Size = new System.Drawing.Size(167, 21);
             this.idUbicacionComboBox.TabIndex = 30;
             this.idUbicacionComboBox.ValueMember = "id_ubicacion";
             // 
-            // fechaRegistroLabel
-            // 
-            fechaRegistroLabel.AutoSize = true;
-            fechaRegistroLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            fechaRegistroLabel.Location = new System.Drawing.Point(540, 270);
-            fechaRegistroLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            fechaRegistroLabel.Name = "fechaRegistroLabel";
-            fechaRegistroLabel.Size = new System.Drawing.Size(169, 20);
-            fechaRegistroLabel.TabIndex = 41;
-            fechaRegistroLabel.Text = "Fecha de Registro:";
-            // 
             // fechaRegistroDateTimePicker
             // 
-            this.fechaRegistroDateTimePicker.Location = new System.Drawing.Point(753, 271);
-            this.fechaRegistroDateTimePicker.Margin = new System.Windows.Forms.Padding(4);
+            this.fechaRegistroDateTimePicker.Location = new System.Drawing.Point(565, 220);
             this.fechaRegistroDateTimePicker.Name = "fechaRegistroDateTimePicker";
-            this.fechaRegistroDateTimePicker.Size = new System.Drawing.Size(253, 22);
+            this.fechaRegistroDateTimePicker.Size = new System.Drawing.Size(191, 20);
             this.fechaRegistroDateTimePicker.TabIndex = 31;
             this.fechaRegistroDateTimePicker.Value = new System.DateTime(2018, 11, 15, 13, 38, 43, 0);
             // 
-            // inicioUFVLabel
-            // 
-            inicioUFVLabel.AutoSize = true;
-            inicioUFVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            inicioUFVLabel.Location = new System.Drawing.Point(540, 301);
-            inicioUFVLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            inicioUFVLabel.Name = "inicioUFVLabel";
-            inicioUFVLabel.Size = new System.Drawing.Size(102, 20);
-            inicioUFVLabel.TabIndex = 43;
-            inicioUFVLabel.Text = "Inicio UFV:";
-            // 
             // inicioUFVTextBox
             // 
-            this.inicioUFVTextBox.Location = new System.Drawing.Point(753, 303);
-            this.inicioUFVTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.inicioUFVTextBox.Location = new System.Drawing.Point(565, 246);
             this.inicioUFVTextBox.Name = "inicioUFVTextBox";
-            this.inicioUFVTextBox.Size = new System.Drawing.Size(253, 22);
+            this.inicioUFVTextBox.Size = new System.Drawing.Size(191, 20);
             this.inicioUFVTextBox.TabIndex = 33;
-            // 
-            // finalUFVLabel
-            // 
-            finalUFVLabel.AutoSize = true;
-            finalUFVLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            finalUFVLabel.Location = new System.Drawing.Point(540, 333);
-            finalUFVLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            finalUFVLabel.Name = "finalUFVLabel";
-            finalUFVLabel.Size = new System.Drawing.Size(98, 20);
-            finalUFVLabel.TabIndex = 44;
-            finalUFVLabel.Text = "Final UFV:";
             // 
             // finalUFVTextBox
             // 
-            this.finalUFVTextBox.Location = new System.Drawing.Point(753, 335);
-            this.finalUFVTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.finalUFVTextBox.Location = new System.Drawing.Point(565, 272);
             this.finalUFVTextBox.Name = "finalUFVTextBox";
-            this.finalUFVTextBox.Size = new System.Drawing.Size(253, 22);
+            this.finalUFVTextBox.Size = new System.Drawing.Size(191, 20);
             this.finalUFVTextBox.TabIndex = 34;
             // 
             // registroDataGridView
             // 
             this.registroDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.registroDataGridView.Location = new System.Drawing.Point(17, 494);
-            this.registroDataGridView.Margin = new System.Windows.Forms.Padding(4);
+            this.registroDataGridView.Location = new System.Drawing.Point(13, 401);
             this.registroDataGridView.Name = "registroDataGridView";
             this.registroDataGridView.ReadOnly = true;
-            this.registroDataGridView.Size = new System.Drawing.Size(992, 271);
+            this.registroDataGridView.Size = new System.Drawing.Size(744, 220);
             this.registroDataGridView.TabIndex = 26;
             // 
             // REGISTRO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 865);
+            this.ClientSize = new System.Drawing.Size(770, 634);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -345,6 +322,7 @@
             this.Controls.Add(this.finalUFVTextBox);
             this.Controls.Add(this.registroDataGridView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "REGISTRO";
             this.Text = "REGISTRO";
             ((System.ComponentModel.ISupportInitialize)(this.registroDataGridView)).EndInit();

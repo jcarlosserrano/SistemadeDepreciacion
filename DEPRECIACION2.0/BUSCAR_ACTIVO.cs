@@ -24,12 +24,11 @@ namespace DEPRECIACION2._0
             InitializeComponent();
 
             InitializeComponent();
-            String instancia = "CORCHO";
             String bd = "sis325";
 
             try
             {
-                sqlCon = new SqlConnection("Server=" + instancia + ";Database=" + bd + ";Trusted_Connection=True; MultipleActiveResultSets=true");
+                sqlCon = new SqlConnection("Server=localhost;Database=" + bd + ";Trusted_Connection=True; MultipleActiveResultSets=true");
                 sqlCon.Open();
                 //MessageBox.Show("base de datos");
             }

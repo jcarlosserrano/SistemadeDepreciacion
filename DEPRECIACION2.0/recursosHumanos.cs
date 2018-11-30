@@ -29,12 +29,11 @@ namespace DEPRECIACION2._0
         {
             
             InitializeComponent();
-            String instancia = "CORCHO";
             String bd = "sis325";
 
             try
             {
-                sqlCon = new SqlConnection("Server=" + instancia + ";Database=" + bd + ";Trusted_Connection=True");
+                sqlCon = new SqlConnection("Server=localhost;Database=" + bd + ";Trusted_Connection=True");
                 sqlCon.Open();
                 //MessageBox.Show("base de datos");
             }
@@ -48,7 +47,7 @@ namespace DEPRECIACION2._0
 
         private void SetConnection()
         {
-            sql_con = new SqlConnection("Server=CORCHO;Database=sis325;Trusted_Connection=True");
+            sql_con = new SqlConnection("Server=localhost;Database=sis325;Trusted_Connection=True");
         }
 
 

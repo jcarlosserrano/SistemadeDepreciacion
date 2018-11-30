@@ -12,7 +12,7 @@ namespace DEPRECIACION2._0
 {
     public partial class ACTIVOS : Form
     {
-        // PROBANDO GIT
+        
         private SqlConnection sqlCon;
         private SqlCommand sqlCmd;
         private String strCmd;
@@ -25,12 +25,12 @@ namespace DEPRECIACION2._0
         {
             InitializeComponent();
 
-            String instancia = "CORCHO";
+            String instancia = "[local]";
             String bd = "sis325";
 
             try
             {
-                sqlCon = new SqlConnection("Server=" + instancia + ";Database=" + bd + ";Trusted_Connection=True; MultipleActiveResultSets=true");
+                sqlCon = new SqlConnection("Server=localhost;Database=" + bd + ";Trusted_Connection=True; MultipleActiveResultSets=true");
                 sqlCon.Open();
                 //MessageBox.Show("base de datos");
             }
@@ -95,13 +95,15 @@ namespace DEPRECIACION2._0
         {
             try
             {
-
                 //if (txtDescripcion.Equals("")){
                 strCmd = "INSERT INTO activoFijo (ID_RUBRO,CODIGO_ACTIVO,DESCRIPCION,MARCA,PROCEDENCIA,COLOR,FECHA_COMPRA,VALOR_COMPRA,ESTADO) VALUES (" + txtRubro.Text + "," + txtCodActivo.Text + ",'" + txtDescripActivo.Text + "','" + txtMarca.Text + "','" + txtProcedencia.Text + "','" + txtColor.Text + "','" + dtpFecha.Value.TimeOfDay.ToString() + "'," + txtValorCompra.Text + ",'" + cmbEstado.Text + "')";
                 sqlCmd = new SqlCommand(strCmd, sqlCon);
                 sqlCmd.ExecuteNonQuery();
-                MessageBox.Show("REGISTRO INSTERADA EXITOSAMENTE", "Aviso");
+                MessageBox.Show("REGISTRO INSERTADA EXITOSAMENTE", "Aviso");
                 return true;
+
+                
+
                 //}
                 //else
                 //    MessageBox.Show("error");
@@ -112,7 +114,7 @@ namespace DEPRECIACION2._0
             catch (SqlException)
             {
                 MessageBox.Show(txtRubro.Text + txtCodActivo.Text + txtDescripActivo.Text);
-                MessageBox.Show("no se inserto", "advertencia");
+                MessageBox.Show("NO SE INSERTO", "ADVERTENCIA");
                 return false;
                 // throw;
             }

@@ -103,7 +103,10 @@ namespace DEPRECIACION2._0
 
         private void rptActivos_Click(object sender, EventArgs e)
         {
-            subMenuReportes.Visible = false;
+
+            //subMenuReportes.Visible = false;
+            informeActivoFijo f2 = new informeActivoFijo();
+            f2.Show();
         }
 
         private void rptDepresiacion_Click(object sender, EventArgs e)

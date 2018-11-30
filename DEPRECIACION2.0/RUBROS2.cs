@@ -13,6 +13,8 @@ namespace DEPRECIACION2._0
     public partial class RUBROS2 : Form
     {
 
+
+
         private SqlConnection sqlCon;
         private SqlCommand sqlCmd;
         private String strCmd;
@@ -24,13 +26,11 @@ namespace DEPRECIACION2._0
         {
             InitializeComponent();
 
-
-            String instancia = "CORCHO";
             String bd = "sis325";
 
             try
             {
-                sqlCon = new SqlConnection("Server=" + instancia + ";Database=" + bd + ";Trusted_Connection=True");
+                sqlCon = new SqlConnection("Server=localhost;Database=" + bd + ";Trusted_Connection=True");
                 sqlCon.Open();
                 //MessageBox.Show("base de datos");
             }
@@ -69,16 +69,28 @@ namespace DEPRECIACION2._0
             }
         }
 
+        private void resetIdent(String txtQuery)
+        {
+            //SetConnection();
+            //sqlCon.Open();
+            sqlCmd = sqlCon.CreateCommand();
+            sqlCmd.CommandText = txtQuery;
+            sqlCmd.ExecuteNonQuery();
+            //sqlCon.Close();
+        }
+
         private Boolean guardar()
         {
             try
             {
+              
 
                 //if (txtDescripcion.Equals("")){
                 strCmd = "insert  into rubro (descripcion,vida_util,Porc_DEPRECIACION) VALUES ('" + txtDescripcion.Text + "'," + txtAnios.Text + "," + txtCoeficiente.Text + ")";
                 sqlCmd = new SqlCommand(strCmd, sqlCon);
                 sqlCmd.ExecuteNonQuery();
                 MessageBox.Show("REGISTRO INSTERADA EXITOSAMENTE", "Aviso");
+
                 return true;
                 //}
                 //else
